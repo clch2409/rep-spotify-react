@@ -1,0 +1,239 @@
+:root{
+    --spotify-green: #1DB954;
+    --cold-white: #FFFFFF;
+    --sm: 1.2rem;
+    --md: 1.9rem;
+    --lg: 2.6rem;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: linear-gradient(180deg, rgba(122,83,238,1) 0%, rgba(88,34,244,1) 50%, rgba(9,9,9,1) 100%);
+    height: 100%;
+}
+/*Estilos del landign page*/
+.contenedor-landing{
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+}
+.contenedor-landing figure img{
+    margin: 30px 0;
+    width: 90%;
+    height: 40%;
+}
+.contenedor-landing .contenedor-landing-text, .contenedor-landing button{
+    color: var(--cold-white);
+    font-size: var(--md);
+}
+
+/*Fin de los estilos del landing page*/
+/* Estilos del header*/
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+.bi-spotify{
+    font-size: 35px;
+    color: var(--spotify-green);
+    display: inline-block;
+    margin-left: 40px;
+}
+.buscar{
+    display: flex;
+    gap: 30px;
+}
+.buscar input{
+    background: none;
+    border: none;
+    border-bottom: solid var(--cold-white) 2px;
+    border-radius: 5px;
+    font-size: var(--sm);
+    width: 15vw;
+    outline: none;
+    caret-color: var(--cold-white);
+    padding-left: 8px;
+    color: var(--cold-white)
+}
+.buscar input::placeholder{
+    color: var(--cold-white);
+    opacity: 75%;
+}
+.buscar input:focus{
+    border-bottom: solid var(--spotify-green) 2px;
+}
+.buscar__lupa{
+    font-size: var(--md);
+    color: var(--cold-white);
+    cursor: pointer;
+    border: 0;
+    background-color: none;
+}
+.buscar__lupa:hover{
+    color: var(--spotify-green);
+}
+.counter{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.counter p{
+    margin: 0;
+    color: var(--cold-white);
+    font-size: var(--md);
+}
+.bi-headphones{
+    color: var(--cold-white);
+    font-size: var(--md);
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.bi-headphones:hover{
+    color: var(--spotify-green)
+}
+/*Fin de los estilos del header*/
+
+/*Estilos de generos*/
+.list-group-item span{
+    background-color: var(--spotify-green);
+}
+
+.list-group-item{
+    background: none;
+    border: none;
+    color: var(--cold-white);
+    cursor: pointer;
+}
+.list-group-item:hover{
+    box-shadow: 0px -1px 13px 1px rgba(0,0,0,0.75);
+}
+.list-group-item{
+    font-size: var(--sm);
+}
+/*Fin de los estilos de generos*/
+
+/*Estilos de las cartas*/
+.carta-main{
+    background: #5932d0;
+    border: none;
+    margin: 20px;
+    border-radius: 15px;
+}
+.carta-main:hover{
+    box-shadow: 0px -1px 44px 3px rgba(0,0,0,0.75);
+}
+.carta-main:hover .play{
+    position: absolute;
+    right: 30px;
+    bottom: 90px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img-top{
+    position: relative;
+    padding: 10px;
+    border-radius: 25px;
+}
+.play{
+    display: none;
+    background-color: var(--spotify-green);
+    border: none;
+}
+.bi-play-fill{
+    font-size: 30px;
+    margin-left: 2px;
+    color: black
+}
+.card-body a{
+    text-decoration: none;
+}
+.card-body a:hover h4{
+    color: var(--spotify-green)
+}
+.card-title{
+    color: var(--cold-white)
+}
+.card-text{
+    color:#9e9d9d;
+}
+/*Fin de los estilos de las cartas*/
+
+/*Estilos de resumen de la cancion*/
+.contenedor-resumen{
+    height: 100vh;
+}
+.carta_resumen{
+    height: 100%;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px 22px 3px rgba(0,0,0,0.75);
+}
+.song_image{
+    width: 100%;
+    height: 100%;
+}
+.cuerpo_carta{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuerpo_carta h4{
+    color: black
+}
+.cuerpo_carta h4 strong{
+    color: var(--cold-white)
+}
+.play_cancion{
+    border-radius: 30px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    display: inline-block;
+    background-color: var(--spotify-green);
+    border: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.play-resumen{
+    font-size: 30px;
+    margin-left: 2px;
+    color: black
+}
+.volver{
+    border-radius: 30px;
+    position: absolute;
+    right: 115px;
+    bottom: 50px;
+    display: inline-block;
+    background-color: #FC2947;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.volver-resumen{
+    font-size: 20px;
+    margin-right: 8px;
+    color: black
+}
+/*Fin de los estilos del resumen de la cancion*/

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "01",
+        "nombre": "Si Me Sobrara el Tiempo",
+        "artista": "Duki",
+        "album": "Si Me Sobrara el Tiempo",
+        "reproducciones": "210.944.412",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 1,
+            "nombre": "Trap"
+        },
+        "imagen": "simesobrara.png",
+        "cancion": "https://open.spotify.com/track/2ypbIXW3a7fsLdLtLpZWDZ?si=4e0965b4f45444c8"
+    },
+    {
+        "id": "02",
+        "nombre": "DNA",
+        "artista": "Kendric Lamar",
+        "album": "DAMN",
+        "reproducciones": "958.689.007",
+        "idioma": "inglés",
+        "genero": 
+        {
+            "id_genero": 2,
+            "nombre": "Rap"
+        },
+        "imagen": "damn.jpeg",
+        "cancion": "https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj?si=df41d19ac9bd489d"
+    },
+    {
+        "id": "03",
+        "nombre": "Y la Felicidad Qué",
+        "artista": "Canserbero",
+        "album": "Vida",
+        "reproducciones": "44.855.889",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 2,
+            "nombre": "Rap"
+        },
+        "imagen": "vida.jpeg",
+        "cancion": "https://open.spotify.com/track/24HYU0MQmeUQ6YLjl1o2NV?si=27fc487f772d4cfc"
+    },
+    {
+        "id": "04",
+        "nombre": "DÁKITI",
+        "artista": "Bad Bunny, Jhayco",
+        "album": "EL ÚLTIMO TOUR DEL MUNDO",
+        "reproducciones": "1.663.182.750",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 3,
+            "nombre": "Reggaeton"
+        },
+        "imagen": "dakiti.jpeg",
+        "cancion": "https://open.spotify.com/track/2ypbIXW3a7fsLdLtLpZWDZ?si=4e0965b4f45444c8"
+    },
+    {
+        "id": "05",
+        "nombre": "Hablamos Mañana",
+        "artista": "Bad Bunny, Duki, Pablo Chill-E",
+        "album": "YHLQMDLG",
+        "reproducciones": "176.878.187",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 1,
+            "nombre": "Trap"
+        },
+        "imagen": "hablamos.jpeg",
+        "cancion": "https://open.spotify.com/track/1V8XneTrX6kKeoxYbk4x6h?si=66a39ddb2b6b442c"
+    },
+    {
+        "id": "06",
+        "nombre": "Vale la Pena",
+        "artista": "Juan Luis Guerra 4.40",
+        "album": "Ni Es Lo Mismo Ni Es Igual",
+        "reproducciones": "23.657.332",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 5,
+            "nombre": "Meregue"
+        },
+        "imagen": "mismo.jpeg",
+        "cancion": "https://open.spotify.com/track/7uC9TpGGHrAssX8NUKBqed?si=c574adb3afa84c7f"
+    },
+    {
+        "id": "07",
+        "nombre": "El Valle de las Sombras",
+        "artista": "Canserbero",
+        "album": "Muerte",
+        "reproducciones": "20.353.300",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 2,
+            "nombre": "Rap"
+        },
+        "imagen": "muerte.jpeg",
+        "cancion": "https://open.spotify.com/track/2ypbIXW3a7fsLdLtLpZWDZ?si=4e0965b4f45444c8"
+    },
+    {
+        "id": "08",
+        "nombre": "Sorry",
+        "artista": "Justin Bieber",
+        "album": "Purpose",
+        "reproducciones": "1772464945",
+        "idioma": "inglés",
+        "genero": 
+        {
+            "id_genero": 6,
+            "nombre": "Pop"
+        },
+        "imagen": "purpose.jpeg",
+        "cancion": "https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF?si=7ea0d1c031ed4eca"
+    },
+    {
+        "id": "09",
+        "nombre": "Tu Amor Me Hace Bien - Salsa Version",
+        "artista": "Marc Anthony",
+        "album": "Valio La Pena",
+        "reproducciones": "212.726.843",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 4,
+            "nombre": "Salsa"
+        },
+        "imagen": "valio.jpeg",
+        "cancion": "https://open.spotify.com/track/3yEtuhGR8jOtusa29jWrhG?si=2ecba54822104768"
+    },
+    {
+        "id": "10",
+        "nombre": "Neverita",
+        "artista": "Bad Bunny",
+        "album": "Un Verano Sin Ti",
+        "reproducciones": "563.295.875",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 1,
+            "nombre": "Trap"
+        },
+        "imagen": "verano.jpeg",
+        "cancion": "https://open.spotify.com/track/2ypbIXW3a7fsLdLtLpZWDZ?si=4e0965b4f45444c8"
+    },
+    {
+        "id": "11",
+        "nombre": "Tití Me Preguntó",
+        "artista": "Bad Bunny",
+        "album": "Un Verano Sin Ti",
+        "reproducciones": "1.108.412.881",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 3,
+            "nombre": "Reggaeton"
+        },
+        "imagen": "verano.jpeg",
+        "cancion": "https://open.spotify.com/track/1IHWl5LamUGEuP4ozKQSXZ?si=87c90653648c454c"
+    },
+    {
+        "id": "12",
+        "nombre": "Pensando en Ti",
+        "artista": "Canserbero",
+        "album": "Vida",
+        "reproducciones": "115.893.428",
+        "idioma": "español",
+        "genero": 
+        {
+            "id_genero": 2,
+            "nombre": "Rap"
+        },
+        "imagen": "vida.jpeg",
+        "cancion": "https://open.spotify.com/track/2auNjgM4xIOANxtZT4Xe9z?si=5f6e712fbbc84eca"
+    }
+]

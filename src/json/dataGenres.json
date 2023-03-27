@@ -1,0 +1,27 @@
+[
+    {
+        "id_genero": 1,
+        "nombre": "Trap"
+    },
+    {
+        "id_genero": 2,
+        "nombre": "Rap"
+    },
+    {
+        "id_genero": 3,
+        "nombre": "Reggaeton"
+    },
+    {
+        "id_genero": 4,
+        "nombre": "Salsa"
+    },
+    {
+        "id_genero": 5,
+        "nombre": "Merengue"
+    },
+    {
+        "id_genero": 6,
+        "nombre": "Pop"
+    }
+    
+]
